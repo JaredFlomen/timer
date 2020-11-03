@@ -1,4 +1,5 @@
-const userInput = process.argv.slice(2);
+const userInput = process.argv.slice(2).sort((x, y) => {return x-y});
+
 
 for(const i of userInput) {
   if (i > 0 || Number.isNaN(i)) {
