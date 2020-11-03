@@ -14,7 +14,7 @@ rl.question('Input: ', (input) => {
     }, 0);
     rl.close();
 
-    //checks for number between 0 and 10
+    //checks for number between 0 and 9
   } else if (input > 0 && input < 10) {
     console.log(`Setting timer for ${input} seconds`);
     setTimeout(() => {
